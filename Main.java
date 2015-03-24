@@ -11,7 +11,7 @@ class Main{
 		String b;
 		a=var.getValor();
 		b=var.getNome();
-		System.out.println(b +" "+a);
+		System.out.println("vetor[0].nome= "+b +" vetor[0].valor= "+a);
 
 		inter.criaVariavel(var);
 
