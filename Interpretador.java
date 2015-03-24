@@ -1,11 +1,15 @@
 class Interpretador{
-	Variavel[] vetor= new Variavel[3];
+	Variavel[] vetor= new Variavel[5];
 
-	public Variavel getVariavel(String nome){
+	public Variavel getVariavel(String name){
 		Variavel var= new Variavel();
-		/*for(int i=0;i<this.vetor.size();i++){
-			System.out.println(vetor.size());
-		}*/
+		int i=0;
+		 while(vetor[i]!=null){
+		 	if(vetor[i].getNome().equals(name)){
+		 	var=vetor[i];
+		 }
+		 	i++;
+		 }
 		return var;
 	}
 	public void criaVariavel(Variavel v){
