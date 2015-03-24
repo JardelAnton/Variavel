@@ -5,7 +5,7 @@ class Main{
 		Interpretador inter;
 		inter=new Interpretador();
 
-		var.setNome("Jardel");
+		var.setNome("Abacaxi");
 		var.setValor(19.0);
 		Double a;
 		String b;
@@ -15,27 +15,27 @@ class Main{
 
 		inter.criaVariavel(var);
 
-		var.setNome("Lisle");
+		var.setNome("Abobora");
 		var.setValor(16.0);
 		inter.criaVariavel(var);
 
-		var.setNome("Luany");
+		var.setNome("Ananaz");
 		var.setValor(5.0);
 		inter.criaVariavel(var);
 
-		var.setNome("Lara");
+		var.setNome("Abacate");
 		var.setValor(3.0);
 		inter.criaVariavel(var);
 
-		var=inter.getVariavel("Lisle");
+		var=inter.getVariavel("Ananaz");
 		System.out.println(var.getNome()+" "+var.getValor());
-		var=inter.getVariavel("Jardel");
+		var=inter.getVariavel("Abobora");
 		System.out.println(var.getNome()+" "+var.getValor());
-		var=inter.getVariavel("Luany");
+		var=inter.getVariavel("Abacate");
 		System.out.println(var.getNome()+" "+var.getValor());
-		var=inter.getVariavel("Lisle");
+		var=inter.getVariavel("Abacaxi");
 		System.out.println(var.getNome()+" "+var.getValor());
-		var=inter.getVariavel("Lara");
+		var=inter.getVariavel("Abobora");
 		System.out.println(var.getNome()+" "+var.getValor());
 	}
 
